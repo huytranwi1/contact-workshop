@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+
+import ContactList from "./Components/ContactList"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <ContactList />
     </>
-  )
+  );
 }
 
 export default App
